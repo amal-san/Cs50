@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int main()
-{
+int main(){
    char str[100];
    printf("Enter the plaintext: \n");
    scanf("%s",str);
@@ -29,6 +28,7 @@ int main()
     	   }
        }  
    }
+
    printf("Ciphertext :%s", d );
    return 0;
 }
