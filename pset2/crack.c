@@ -47,6 +47,7 @@ int main( int argc, char* argv[]) {
 		}
 	}
   }
+
   printf("password can't be cracked");
   return 2;
 }
